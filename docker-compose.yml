@@ -1,0 +1,18 @@
+
+
+services:
+    web:
+        container_name: Portfolio
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "3000:3000"  # Maps port 5001 on the host to port 5000 in the container
+        volumes:
+            - .:/var/www/html  # Mount the current directory to /var/www/html in the container
+        network_mode: jazzfestival-main_custom_network  # Use the specified custom network
+
+networks:
+    default:
+        external:
+            name: jazzfestival-main_custom_network
