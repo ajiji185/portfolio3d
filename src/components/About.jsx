@@ -47,11 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a skilled software developer with expertise in CasaOS, Docker, Flask, and Python. I excel in creating efficient, scalable, and user-friendly solutions tailored to real-world needs. My quick learning and collaborative approach with clients ensure that we can bring your ideas to life effectively. Let's work together to build robust and innovative solutions!
+
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

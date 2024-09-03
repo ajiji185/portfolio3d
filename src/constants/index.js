@@ -116,55 +116,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Server Administrator",
+    company_name: "Avasiweb Sdn Bhd",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining server infrastructure using Linux and related technologies.",
+      "Ensuring system reliability and performance through regular monitoring and maintenance.",
+      "Implementing security measures to safeguard data and applications.",
+      "Collaborating with other IT professionals to enhance system functionalities.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Backend Developer",
+    company_name: "Avasiweb Sdn Bhd",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building and maintaining backend systems using Flask and Python.",
+      "Designing and implementing RESTful APIs for various applications.",
+      "Optimizing application performance and ensuring high availability.",
+      "Participating in code reviews and contributing to project planning.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Frontend Developer",
+    company_name: "Avasiweb Sdn Bhd",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing responsive and interactive web interfaces using React.js.",
+      "Integrating front-end components with backend services.",
+      "Ensuring cross-browser compatibility and accessibility standards.",
+      "Working closely with UX/UI designers to implement modern design trends.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Full Stack Developer",
+    company_name: "Avasiweb Sdn Bhd",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "August 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building end-to-end solutions using both front-end and back-end technologies.",
+      "Managing and deploying web applications across various environments.",
+      "Collaborating with stakeholders to gather requirements and deliver high-quality solutions.",
+      "Maintaining code quality through best practices and automated testing.",
     ],
   },
 ];
@@ -172,46 +172,46 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "A clever person solves a problem. A wise person avoids it.",
+    name: "Albert Einstein",
+    designation: " theoretical physicist",
+    company: " theory relativity",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Talk is cheap. Show me the code.",
+    name: "Linus Torvalds",
+    designation: "founder",
+    company: "Linux ",
+    image: "https://www.datocms-assets.com/48294/1627309750-18-web-development-quotes.jpg?auto=format&dpr=0.67&w=1200",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "It's all talk until the code runs",
+    name: "Ward Cunningham",
+    designation: "co-author",
+    company: "Manifesto for Agile Software Development",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Ward_Cunningham_-_Commons-1.jpg/220px-Ward_Cunningham_-_Commons-1.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Sepilok Databased & Broadcast System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows Customer to Scan QR to Fill in their details and admin can broadcast any promotions or event.",
     tags: [
       {
-        name: "react",
+        name: "Bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
@@ -219,20 +219,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Rumah Terbalik reception & Broadcast System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows Customer to Scan QR to Fill in their details and admin can broadcast any promotions or event.",
     tags: [
       {
-        name: "react",
+        name: "Bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
@@ -240,20 +240,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Nasalis Inventory System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An inventory system to record all the item and manage item in and out at Tanini Sepilok Store.",
     tags: [
       {
-        name: "nextjs",
+        name: "Bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
