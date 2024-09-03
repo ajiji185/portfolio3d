@@ -1,7 +1,7 @@
 
 
 services:
-    web:
+    webportfolio:
         container_name: Portfolio
         build:
             context: .
